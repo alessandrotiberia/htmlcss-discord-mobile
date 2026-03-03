@@ -1,5 +1,23 @@
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Con border-box: padding e bordo restano dentro i 300.
+    regola base diciamo */
+}
+    /* width: 512px; limite per smartphone */
+    body {
+        width: 512px; 
+  margin: 0;  /* Il browser di default mette un piccolo spazio attorno al body.
+Con margin 0 elimini questo spazio .*/
+  font-family: Arial; /*carattere del testo */
+  background: #0b1b5a; /*colore sfondo preso da esercizio */
+  color: white;  /*testo del body sarà bianco */
+}
+
+/*header per centrare il testo */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    /*sopra e sotto 40
+    destra e sinistra 20*/
+}
