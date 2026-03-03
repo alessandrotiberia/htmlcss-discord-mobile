@@ -48,11 +48,12 @@ header {
 }
 
 header h1 {
+    font-family: "Arial Black", Arial, sans-serif; 
     font-size: 34px;
     font-weight: 900;
     text-transform: uppercase;
     /*testo in maiuscolo*/
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 14px;
     /*spazio titolo e paragrafo*/
 }
@@ -100,9 +101,11 @@ header p {
 }
 
 .div2 h2 { /*come h1 */
-    font-size: 22px;
+     font-family: "Arial Black", Arial, sans-serif;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 1px;
     line-height: 1.1;
     margin-bottom: 16px;
 }
@@ -130,6 +133,12 @@ header p {
     font-size: 14px;
     cursor: pointer;
 }
+.emoji-icon {
+    width: 15px;
+    display: block;
+    margin: 4px 0 8px 4px;
+}
+
 .div3 { /* preso stile usato del div 2 sopra  */
     background-color: #3b46c5;
     margin: 0 16px 24px;
@@ -139,10 +148,12 @@ header p {
 }
 
 .div3 h2 {
-    font-size: 22px;
+     font-family: "Arial Black", Arial, sans-serif;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.1;
+    letter-spacing: 1px;
     margin-bottom: 16px;
 }
 
@@ -158,4 +169,6 @@ header p {
     display: block;
     margin: 0 auto;
 }
+
+
 
