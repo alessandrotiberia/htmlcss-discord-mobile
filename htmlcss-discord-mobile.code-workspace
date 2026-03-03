@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/assets-2/img"
+		},
+		{
+			"path": "../../../Downloads/assets-2/video"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcss-discord-mobile"
+	}
+}

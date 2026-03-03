@@ -1,13 +1,13 @@
 * {
-    margin: 0;
+    margin: 0; /*ogliamo i margini e i padding che mette il browser*/
     padding: 0;
-    box-sizing: border-box; /* Con border-box: padding e bordo restano dentro i 300.
+    box-sizing: border-box; /* Con border-box: padding e bordo restano. dentro i 300
     regola base diciamo */
 }
     /* width: 512px; limite per smartphone */
     body {
         width: 512px; 
-  margin: 0;  /* Il browser di default mette un piccolo spazio attorno al body.
+  margin: 0 auto;  /* Il browser di default mette un piccolo spazio attorno al body.
 Con margin 0 elimini questo spazio .*/
   font-family: Arial; /*carattere del testo */
   background: #0b1b5a; /*colore sfondo preso da esercizio */
@@ -20,4 +20,51 @@ header {
     padding: 40px 20px;
     /*sopra e sotto 40
     destra e sinistra 20*/
+}
+
+.div1 {
+    width: 90%; 
+    margin: 0 auto;
+    max-width: 420px; /*non superare 420px*/
+    text-align: center; /*testo e gli inline sono centrati*/
+}
+.div1 img {
+    width: 100%; /* occupa il 100% del padre di div1*/
+   /*  border-radius: 16px; arrotonda per dare effetto cerchio come visto a lezione*/
+   display: block; /* si comporta img come blocco*/
+   margin: 0 auto;
+}
+header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase; /*testo in maiuscolo*/
+    line-height: 1;
+    margin-bottom: 14px; /*spazio titolo e paragrafo*/
+}
+
+header p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+.btn { /*classe che si occupa di tutti i bottoni o link */
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 18px;
+    border-radius: 999px;
+    margin: 0 auto 12px;
+    max-width: 320px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn.white { /* qui diamo sfondo bianco e testo grigio*/
+    background-color: #ffffff;
+    color: #23272a;
+}
+
+.btn.blue { /*come su diamo sfondo e colore al testo*/
+    background-color: #5865f2;
+    color: #ffffff;
 }
