@@ -1,17 +1,24 @@
 * {
-    margin: 0; /*ogliamo i margini e i padding che mette il browser*/
+    margin: 0;
+    /*ogliamo i margini e i padding che mette il browser*/
     padding: 0;
-    box-sizing: border-box; /* Con border-box: padding e bordo restano. dentro i 300
+    box-sizing: border-box;
+    /* Con border-box: padding e bordo restano. dentro i 300
     regola base diciamo */
 }
-    /* width: 512px; limite per smartphone */
-    body {
-        width: 512px; 
-  margin: 0 auto;  /* Il browser di default mette un piccolo spazio attorno al body.
+
+/* width: 512px; limite per smartphone */
+body {
+    width: 512px;
+    margin: 0 auto;
+    /* Il browser di default mette un piccolo spazio attorno al body.
 Con margin 0 elimini questo spazio .*/
-  font-family: Arial; /*carattere del testo */
-  background: #0b1b5a; /*colore sfondo preso da esercizio */
-  color: white;  /*testo del body sarà bianco */
+    font-family: Arial;
+    /*carattere del testo */
+    background: #0b1b5a;
+    /*colore sfondo preso da esercizio */
+    color: white;
+    /*testo del body sarà bianco */
 }
 
 /*header per centrare il testo */
@@ -23,23 +30,31 @@ header {
 }
 
 .div1 {
-    width: 90%; 
+    width: 90%;
     margin: 0 auto;
-    max-width: 420px; /*non superare 420px*/
-    text-align: center; /*testo e gli inline sono centrati*/
+    max-width: 420px;
+    /*non superare 420px*/
+    text-align: center;
+    /*testo e gli inline sono centrati*/
 }
+
 .div1 img {
-    width: 100%; /* occupa il 100% del padre di div1*/
-   /*  border-radius: 16px; arrotonda per dare effetto cerchio come visto a lezione*/
-   display: block; /* si comporta img come blocco*/
-   margin: 0 auto;
+    width: 100%;
+    /* occupa il 100% del padre di div1*/
+    /*  border-radius: 16px; arrotonda per dare effetto cerchio come visto a lezione*/
+    display: block;
+    /* si comporta img come blocco*/
+    margin: 0 auto;
 }
+
 header h1 {
     font-size: 34px;
     font-weight: 900;
-    text-transform: uppercase; /*testo in maiuscolo*/
+    text-transform: uppercase;
+    /*testo in maiuscolo*/
     line-height: 1;
-    margin-bottom: 14px; /*spazio titolo e paragrafo*/
+    margin-bottom: 14px;
+    /*spazio titolo e paragrafo*/
 }
 
 header p {
@@ -47,7 +62,9 @@ header p {
     line-height: 1.6;
     margin-bottom: 24px;
 }
-.btn { /*classe che si occupa di tutti i bottoni o link */
+
+.btn {
+    /*classe che si occupa di tutti i bottoni o link */
     display: block;
     text-decoration: none;
     font-weight: 600;
@@ -59,12 +76,86 @@ header p {
     font-size: 14px;
 }
 
-.btn.white { /* qui diamo sfondo bianco e testo grigio*/
+.btn.white {
+    /* qui diamo sfondo bianco e testo grigio*/
     background-color: #ffffff;
     color: #23272a;
 }
 
-.btn.blue { /*come su diamo sfondo e colore al testo*/
+.btn.blue {
+    /*come su diamo sfondo e colore al testo*/
     background-color: #5865f2;
     color: #ffffff;
 }
+
+.div2 {
+    background-color: #3b46c5;
+    margin: 0px 16px 24px;
+    /* sopra 0 destra e sinistra 16 e sotto 24 */
+    padding: 24px 20px 32px;
+    border-radius: 24px;
+    /* arrotonda lati della card */
+    text-align: left;
+    /* allinea a sinistra */
+}
+
+.div2 h2 { /*come h1 */
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.div2 p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.div2 img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 16px;
+}
+.div2 button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #23272a;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.div3 { /* preso stile usato del div 2 sopra  */
+    background-color: #3b46c5;
+    margin: 0 16px 24px;
+    padding: 24px 20px 32px;
+    border-radius: 24px;
+    text-align: left;
+}
+
+.div3 h2 {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.div3 p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.div3 img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
